@@ -2,8 +2,9 @@
   "name": "wpi-spotless",
   "displayName": "WPI Spotless",
   "description": "Spotless formatting (WPILIB)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "sasdallas",
+  "repository": "https://github.com/sasdallas/wpi-spotless/",
   "engines": {
     "vscode": "^1.94.0"
   },
