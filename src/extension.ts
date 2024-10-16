@@ -20,7 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
 				vscode.window.showInformationMessage("Please wait, formatting with spotless...");
 
 				// Execute command
-				const command = shellIntegration.executeCommand(".\\gradlew.bat spotlessApply");
+				const command = shellIntegration.executeCommand("./gradlew spotlessApply");
 				vscode.window.onDidEndTerminalShellExecution(event => {
 					if (event.execution === command) {
 						// undefined is usually an error according to VS docs, but it's always a success normally?
